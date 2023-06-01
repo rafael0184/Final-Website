@@ -1,0 +1,880 @@
+#MainWrapper {
+    width: 2000px; /* you would need to set this to whatever size you wanted your site to be, which would fix the rest of the content with in that */
+    }
+  
+  
+  
+  .swiper {
+  position: absolute;  
+  width: 1000px;
+  height: 500px;
+  margin-left: 17%;
+  margin-top: 90px;
+  }
+  
+  .swiper-slide {
+   
+  background: salmon;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  transition: .5s linear;
+  }
+  
+  .image {
+  border-radius: 5px;
+  width: 1000px;
+  height: 500px;
+  
+  }
+  
+  .image-slider {
+  width: 1000px;
+  height: 500px;
+  text-align: center;
+  margin-top: 50px;
+  }
+  
+  
+  .image-slide {
+  background: salmon;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  transition: .5s linear;
+  }
+   
+  
+  
+  body {
+  background-color: whitesmoke;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; 
+  }
+  
+  
+  .nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: steelblue;
+  }
+  
+  
+  .logo {
+  color: rgb(243, 230, 230);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-left: -16%;
+  font-size: 20px;
+  }
+  
+  
+  .links {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  width: 40%;
+  }
+  
+  .links li {
+  list-style-type: none;
+  margin-left: -34%;
+  }
+  
+  .links a {
+  color: rgb(243, 230, 230);
+  text-decoration: none;
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 16px;
+  display: block;
+  padding: 25px 25px;
+  will-change: transform;
+  transition: transform 450ms;
+  }
+  
+  nav .links a:hover {
+  color: black;
+  background-color: skyblue;
+  border-radius: 5px;
+  transition: transform 125ms;
+  transform: translateY(-10px);
+  }
+  
+  .row {
+  margin-top: 50px;
+  position: relative;
+  margin-left: 10px;
+  margin-right: 10px;
+  }
+  
+  h3 {
+  color: black;
+  }
+  
+
+  
+  .slider-wrap-2 {
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(234,249,249,0.67) 0.1%, rgba(239,249,251,0.63) 90.1% );
+  top: 145%;
+  position: absolute;
+  left: 4%;
+  width: 90%;
+  height: 350px;
+  border: 3px ridge black;
+  border-radius: 5px;
+  cursor: grab;
+  }
+  
+  
+  
+  .slider {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow: scroll;
+  }
+  
+  .slider::-webkit-scrollbar{
+  display: none;
+  }
+  
+  
+  
+  .slider-inner {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 3000px;
+  }
+  
+  .items {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 98%;
+  top: 1%;
+  border: 2px ridge black;
+  background-color: rgb(219, 219, 219);
+  border-radius: 5px;
+  }
+  
+  
+  .prog-bar {
+  position: absolute;
+  bottom: -23px;
+  left: 0;
+  width: 100%;
+  height: 7px;
+  border: 2px ridge black;
+  border-radius: 10px;
+  }
+  
+  .prog-bar-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: black;
+  }
+  
+  .Products h3 {
+  display: inline-flex;
+  position: absolute;
+  margin-left: 60px;
+  margin-top: 43%;
+  font-weight: bold;
+  font-size: 36px;
+  }
+  
+  .img {
+  width: 235px;
+  height: 158px;
+  margin-bottom: 168px;
+  position: absolute;
+  border-radius: 5px;
+  }
+  
+  .details h5 {
+  position: absolute;
+  display: inline-flex;
+  margin-top: 2px;
+  margin-right: -50px;
+  margin-left: -116px;
+  font-size: 17px;
+  font-weight: bold;
+  }
+  
+  .description p {
+  margin: 45px -120px 0px;
+  color: black;
+  position: absolute;
+  }
+  
+  .Price h4 {
+  margin: 97px -110px -35px;
+  position: absolute;
+  }
+  
+  .add-to-cart   {
+  position: absolute;
+  margin-left: -121px;
+  margin-top: 126px;
+  width: 120px;
+  height: 40px;
+  background-color: black;
+  border-radius: 5px;
+  }
+  
+  .Buy-Now   {
+  margin-left: 1px;
+  margin-top: 50px;
+  width: 120px;
+  height: 40px; 
+  background-color: black;
+  border-radius: 5px;
+  }
+  
+  
+  
+  .add-to-cart  a {
+  list-style: none;
+  text-decoration: none;
+  color: rgb(236, 236, 236);
+  }
+  
+  .add-to-cart :hover a {
+  color: skyblue;
+  }
+  
+  
+  .about-head h1 {
+  position: absolute;
+  margin-top: 79%;
+  margin-left: 45%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 36px;
+  }
+  
+  .about-head-2 h1 {
+  position: absolute;
+  margin-top: 140px;
+  margin-left: 670px;
+  text-align: center;
+  font-weight: bold;
+  }
+  
+  
+  
+  .about-description h2 {
+  margin-top: 26px;
+  margin-left: 20px;
+  font-size: 40px;
+  position: absolute;
+  }
+  
+  .about-description-2 h2 {
+  margin-top: 26px;
+  margin-left: 20px;
+  font-size: 40px;
+  }
+  
+  
+  
+  .about-description h3 {
+  margin-left: 20px;
+  margin-top: 6%;
+  position: absolute;
+  }
+  
+  .about-description-2 h3 {
+  margin-left: 20px;
+  margin-top: 2%;
+  }
+  
+  .about-description {
+  width: 70%;
+  height: 460px;
+  border: ridge 3px  black;
+  border-radius: 5px;
+  margin-left: 65px;
+  margin-top: 65%;
+  background-image: url("img/");
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  #b0e5d0 42%, #5ccaee69 93.6% );
+  }
+  
+  .about-description-2 {
+  width: 90%;
+  height: 460px;
+  border: ridge 3px  black;
+  border-radius: 5px;
+  margin-left: 65px;
+  margin-top: 230px;
+  background-image: url("img/");
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  #b0e5d0 42%, #5ccaee69 93.6% );
+  }
+  
+  
+  
+  
+  .about-description p {
+  margin-top: 158px;
+  margin-left: 20px;
+  font-size: 20px;
+  width: 60%;
+  color: black;
+  line-height: 160%;
+  position: absolute;
+  }
+  
+  .about-description-2 p {
+  margin-top: 30px;
+  margin-left: 20px;
+  font-size: 20px;
+  width: 60%;
+  color: black;
+  line-height: 160%;
+  }
+  
+  .about-description button {
+  width: 120px;
+  height: 55px;
+  margin-left: 20px;
+  margin-top: 375px;
+  background-color: black;
+  border-radius: 5px;
+  position: absolute;
+  }
+  
+  .about-description-2 button{
+  width: 120px;
+  height: 55px;
+  margin-left: 20px;
+  margin-top: 10px;
+  background-color: black;
+  border-radius: 5px;
+  }
+  
+  button:hover {
+  background-color: steelblue;
+  }
+  
+  
+  .about-description button a {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+  }
+  
+  .about-description-2 button a {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+  }
+  
+  
+  .web-logo {
+  margin-top: 3%;
+  
+  }
+  
+  .web-logo-2 {
+  float: right;
+  margin-right: 60px;
+  }
+  
+  .web-logo img {
+  position: absolute;
+  margin-top: 2px;
+  width: 398px;
+  height: 456px;
+  margin-left: 70%;
+  border-radius: 5px;
+  margin-right: 31px;
+  }
+  
+  
+  
+  .web-logo-2 img {
+  width: 385px;
+  height: 455px;
+  margin-top: 3px;
+  border-radius: 5px;
+  margin-right: 26px;
+  }
+  
+  
+  
+  .Cart {
+  width: 100px;
+  }
+  
+  
+  
+  .clear-cart {
+  width: 100px;
+  }
+  
+  .row-1 {
+  margin-bottom: 10px;
+  }
+  
+  .show-cart li {
+  display: flex;
+  }
+  
+  
+  .Contacts {
+  margin-bottom: 3%;
+  }
+  
+  
+  .Contacts h2 {
+  position: absolute;
+  font-size: 36px;
+  font-weight: bold;
+  padding-top: 36px;
+  }
+  
+  .Contacts-Description  {
+  justify-content: space-between;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  margin-top: 60px;
+  padding-bottom: 20px;
+  color: black;
+  }
+  
+  .Contacts-Description li {
+  list-style-type: none;
+  display: inline-flex;  
+  }
+  
+  .Border {
+  position: absolute;  
+  margin-left: 37%;
+  border: 3px ridge black;
+  width: 400px;
+  height: 433px;
+  margin-top: 4%;
+  border-radius: 5px;
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  #b0e5d0 42%, #5ccaee69 93.6% );
+  padding-bottom: 30px;
+  }
+  
+  .Contacts-Description a {
+  text-decoration: none;
+  color: steelblue;
+  }
+  
+  
+  
+  .footer-content h3{
+  font-size: 30px;
+  text-align: center;
+  }
+  
+  .footer-content p{
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+  color: black;
+  text-align: center;
+  margin-left: 33%;
+  }
+  
+  .footer-content p a {
+  color: black;
+  text-decoration: none;
+  }
+  
+  .Contacts {
+  padding-bottom: 61px;
+  }
+  
+  
+  h1 {
+  text-align: center;
+  margin-top: 3%;
+  font-weight: bold;
+  }
+  
+  
+  .Products-Row {
+  display: inline-flex;
+  margin-left: 40px;
+  transition: ease-in-out 0.3s;
+  }
+  
+  .pro {
+  margin-top: 50px;
+  border: 2px ridge black;
+  width: 250px;
+  height: 400px;
+  margin-left: 20px;
+  background-color: rgb(236, 236, 236);
+  border-radius: 5px;
+  transition: ease-in-out 0.3s;
+  }
+  
+  
+  
+  
+  .pro:hover {
+  background-color: #b0e5d0;
+  transform: translateY(-10px);
+  }
+  
+  .pro img {
+  width: 239px;
+  height: 160px;
+  margin-left: 5px;
+  margin-top: 1%;
+  border-radius: 5px;  
+  }
+  
+  
+  .Pro-Details {
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 6px;
+  
+  }
+  
+  .Pro-Details h4 {
+  font-weight: bold;
+  font-size: 17px;
+  }
+  
+  .Pro-Description {
+  position: absolute; 
+  margin-left: 8px;
+  margin-top: 74px;
+  }
+  
+  .Pro-Description p {
+  margin-left: -5px;
+  }
+  
+  .Pro-Price {
+  position: absolute;
+  margin-left: 5px;
+  margin-top: 133px;
+  }
+  
+  .Pro-Cart {
+  position: absolute;
+  margin-top: 350px;
+  margin-left: -242px;
+  height: 45px;
+  width: 118px;
+  background-color: black;
+  }
+  
+  .Products-Row-2 {
+  display: inline-flex;
+  margin-left: 40px;
+  }
+  
+  .Face-Book {
+  width: 50px;
+  height: 50px;
+  }
+  
+  .Instagram {
+  margin-top: 10px;
+  }
+  
+  .Twitter {
+  margin-top: 10px;
+  }
+  
+  .Footer-Logo {
+  width: 80px;
+  height: 80px;
+  margin-left: 711px;
+  }
+  
+  .Abt {
+  font-size: 36px;
+  margin-top: 4%;
+  margin-left: -22%;
+  }
+  
+  .para-1 {
+  font-size: 20px;
+  }
+  
+  
+  
+  .para-1 {
+  display: inline-flex;
+  margin-bottom: 3%;
+  margin-top: 2%;
+  margin-left: 3.5%;
+  border: ridge 3px black;
+  border-radius: 5px;
+  width: 70%;
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  #b0e5d0 42%, #5ccaee69 93.6% );
+  }
+  
+  
+  .para-1 p {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  line-height: 165%;
+  font-weight: bold;
+  }
+  
+  
+  
+  
+  .para-2 {
+  display: inline-flex;
+  font-size: 20px;
+  width: 70%;
+  margin-bottom: 9%;
+  float: right;
+  margin-top: -5%;
+  margin-right: 15%;
+  border: ridge 3px black;
+  border-radius: 5px;
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  #b0e5d0 42%, #5ccaee69 93.6% );
+  }
+  
+  .para-2 p {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  line-height: 165%;
+  font-weight: bold;
+  }
+  
+  .para-3 {
+  display: inline-flex;
+  margin-left: 15%;
+  font-size: 20px;
+  width: 70%;
+  margin-top: -9%;
+  border: ridge 3px black;
+  border-radius: 5px;
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  #b0e5d0 42%, #5ccaee69 93.6% );
+  }
+  
+  
+  .para-3 p {
+  line-height: 165%;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-weight: bold;
+  }
+  
+  form {
+  position: absolute;  
+  border-radius: 5px;
+  border: ridge 3px black;
+  width: 65%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-left: 17%;
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  #b0e5d0 42%, #5ccaee69 93.6% );
+  }
+  
+  .form-control {
+  width: 91%;
+  }
+  
+  .form-group {
+  width: 100%;
+  height: 100%;
+  margin-left: 5%;
+  font-size: 20px;
+  
+  }
+  
+  .form-button button {
+  width: 20%;
+  height: 50px;
+  margin-left: 5%;
+  margin-top: 10px;
+  background-color: black;
+  border-radius: 5px;
+  }
+  
+  .form-button a {
+  font-size: 18px;
+  list-style-type: none;
+  text-decoration: none;
+  color: whitesmoke;
+  }
+  
+  .form-button:hover button {
+  background-color: steelblue;
+  }
+  
+  
+  .footer-content {
+  margin-top: 3%;
+  }
+  
+  
+  .product-about-head {
+  text-align: center;
+  font-size: 36px;
+  padding-bottom: 52%;
+  margin-left: -23%;
+  }
+  
+  .form-question-2 {
+  margin-left: 31%;
+  margin-bottom: 3%;
+  font-size: 36px;
+  margin-top: -26%;
+  font-weight: bold;
+  }
+  
+  .form-image-2 {
+    margin-left: 43%;
+    margin-top: -9%;  
+  }
+  
+    
+  
+  .Product-image {
+  border-radius: 5px;
+  width: 900px;
+  height: 500px;
+  margin-left: 19%;
+  margin-top: 4%;
+  }
+  
+  .Product-header h2 {
+  margin-left: 1%;
+  font-size: 40px;
+  margin-left: 4%;
+  }
+  
+  .product-border {
+  border: 3px ridge black;
+  width: 69%;
+  margin-top: 3%;
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  #b0e5d0 42%, #5ccaee69 93.6% );
+  margin-left: 15%;
+  }
+  
+  .Product-description p {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 3%;
+  line-height: 1.5;
+  margin-left: 2%;
+  margin-right: 2%;
+  color: black;
+  }
+  
+  .Product-description h3{
+  margin-left: 6%;
+  font-size: 30px;
+  margin-top: 3%;
+  }
+  
+  .Product-Price h3{
+  margin-left: 6%;
+  font-size: 30px;
+  margin-bottom: 5%;
+  margin-top: 3%;
+  }
+  
+  .Product-page-cart {
+  margin-bottom: 0%;
+  background: black;
+  font-size: 25px;
+  width: 20%;
+  margin-bottom: 1%;
+  }
+  
+  .Product-button {
+  position: absolute;
+  margin-top: 51%;
+  background: black;
+  border-radius: 5px;
+  margin-left: -1%;
+  width: 50%;
+  height: 12%;
+  }
+  
+  .Product-button a {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+  }
+  
+  .Product-button2  {
+  margin-top: 76%;
+  margin-left: 50%;
+  }
+  
+  .Product-button2 a {
+  padding-top: 5%;
+  padding-bottom: 14%;
+  background: black;
+  width: 122px;
+  }
+  
+  .Border2 {
+  margin-top: 40px;
+  border: 3px ridge black;
+  width: 400px;
+  height: 433px;
+  align-items: center;
+  margin-left: 525px;
+  border-radius: 5px;
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  #b0e5d0 42%, #5ccaee69 93.6% );
+  padding-bottom: 30px;
+  }
+  
+  .Footer-Logo2 {
+  width: 80px;
+  height: 80px;
+  align-items: center;
+  }
+  
+  footer {
+  border: 2px black  solid;
+  background-color: steelblue;
+  position: absolute;
+  width: 100%;
+  margin-top: 39%;
+  }
+  
+  .col-1 {
+  margin-left: -120%;
+  }
+  
+  .up {
+  margin-bottom: 1%;  
+  background-color: black; 
+  margin-left: 45.5%;
+  }
